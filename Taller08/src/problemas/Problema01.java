@@ -14,7 +14,15 @@ public class Problema01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        String mensajeFinal = "";
+        int i, num1,num2,num3;
+        
+        for (i = 30; i >=10; i--) {
+        
+            System.out.printf(i + "-"+ i*2 +"-"+ i*3 +"-"+i*4+"\n");
+
+        }
+
     }
-    
 }

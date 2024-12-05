@@ -13,8 +13,26 @@ public class Problema03 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+   public static void main(String[] args) {
+  
+                 for (int i = 1; i <= 5; i++) {
+            for (int contador = 1; contador <= i; contador++) {
+                
+                System.out.printf("%s", "*");
+            }
+            System.out.println();
+        }
+         for (int i = 5; i >= 1; i--) {
+            for (int contador = 1; contador <= i; contador++) {
+                
+                System.out.printf("%s", "*");
+            }
+            System.out.println();
+        }
+        
     }
-    
 }
+
+        
+        
+    
